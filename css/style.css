@@ -78,8 +78,15 @@ button {
 .flexbox {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
     padding: 80px 30px;
+}
+
+.social-links{
+    display: flex;
+    gap: 30px;
+    font-size: 2.5rem;
 }
 
 
