@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox-assiignment-1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <!--header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1> Flex <span>.Dev</span></h1>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- hero-section -->
+    <section id="hero">
+        <div class="flexbox">
+            <div class="css">
+                <h1 style="font-weight: 800; font-size: 45px;">Master CSS Flexbox & Positioning </h1>
+                <p style="color: grey;">Create stunning, responsive layouts with ease using modern CSS techniques</p>
+                <button type="button"><a href="#">Explore Feature</a></button>
+            </div>
+            <div class="code">
+                <pre>
+                <code>
+                    .container{
+                        display:flex;
+                        justify-content:center;
+                        align-items:center;
+                        flex-wrap:wrap;
+                    }
+                </code>
+            </pre>
+            </div>
+        </div>
+    </section>
+    <!-- feature -->
+    <section id="feature">
+        <h1 style="text-align: center; margin: 50px;">Flexbox Feature</h1>
+        <div class="flexbox-feature">
+            <div class="box box-1">
+                <h2>Responsive layouts</h2>
+                <p>Easily create layouts that adapt to any screen size without media queries</p>
+            </div>
+            <div class="box box-2">
+                <h2>Perfect Alignment</h2>
+                <p>Center elements vertically and hozitanlly with just a few lines of code.</p>
+            </div>
+            <div class="box box-3">
+                <h2>Order Control</h2>
+                <p> Change visual order without touching the HTML source.</p>
+            </div>
+            <div class="box box-4">
+                <h2>flexible Sizing</h2>
+                <p>Elements can grow and shrink to fill availabe space proportionally.</p>
+            </div>
+        </div>
+    </section>
+    <!-- gallery -->
+    <section id="gallery">
+        <h1 style="text-align: center; margin: 50px;">Layout Gallery</h1>
+        <div class="layout-gallery">
+            <div class="card card-1">
+                <img src="image/portfolio.jpg" alt="pic" height="200px" width="250px">
+                <p>Poster-1</p>
+            </div>
+            <div class="card card-2">
+                <img src="image/portfolio.jpg" alt="pic" height="200px" width="250px">
+                <p>Poster-2</p>
+            </div>
+            <div class="card card-3">
+                <img src="image/portfolio.jpg" alt="pic" height="200px" width="250px">
+                <p>Poster-3</p>
+            </div>
+            <div class="card card-4">
+                <img src="image/portfolio.jpg" alt="pic" height="200px" width="250px">
+                <p>Poster-4</p>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+        <h1 style="text-align: center;">Get in touch</h1>
+        <p style="text-align: center; margin-bottom: 50px;">Have question about Flexbox or CSS Postioning ? Our team is
+            here to help you master mordern layout techniques
+            .</p>
+        <div class="contact">
+            <div class="form">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="mssg">Your Message....</textarea>
+                <button type="submit">Send Message</button>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <div class="footer">
+        <div class="pro">
+            <h2 style="text-align: center;">FlexBoxPro</h2>
+            <p style="text-align: center; margin-bottom: 20px;">Master modern CSS layout techniques with our
+                comprehensive tutorials and
+                resource</p>
+        </div>
+        <div class="right-flex">
+            <div class="links">
+                <h2>Quick Links </h2>
+                <ul>
+                    <li>Feature</li>
+                    <li>Gallery</li>
+                    <li>Pricing</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="resource">
+                <h2>Resouces </h2>
+                <ul>
+                    <li>Documentation</li>
+                    <li>Tutorials</li>
+                    <li>Cheat Sheet</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="letter">
+                <h2>Newsletter</h2>
+                <p>Suscribe to get tips and tricks on CSS layouts</p>
+                <input type="email" name="email" placeholder="Your Email">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
