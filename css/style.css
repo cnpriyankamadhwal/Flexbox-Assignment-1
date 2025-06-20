@@ -70,18 +70,9 @@ button {
     color: white;
 }
 
-.code {
-    background-color: #333;
-    color: #ffff;
-    border-radius: 10px;
-    padding: 20px;
-    font-size: 1.3rem;
-}
-
 .css {
-    flex: 1;
-    max-width: 500px;
     padding: 20px;
+    text-align: center;
 }
 
 .flexbox {
@@ -196,6 +187,11 @@ textarea {
 /* media query */
 
 @media screen and (max-width: 786px) {
+
+    nav{
+        flex-direction: column;
+    }
+
     #hero .flexbox {
         flex-direction: column;
     }
