@@ -54,6 +54,22 @@ span {
     list-style: none;
 }
 
+/* Hover Effects - nav-links */
+nav ul li a:after{
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0;
+    background: #444;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover:after{
+    content: '';
+    width: 100%;
+}
+
 /* hero-section */
 
 #hero {
